@@ -32,3 +32,5 @@ Using the datasets imported in the previous or the cell above explore the datase
 5. Do try to include labels and titles to make the whole data look more lively and presentable as you present those visualization and also make sure to add titles and labels to your plots and adjust their format for readability and better Analytics purpose.
 
 
+## Making a scatter plot with lists
+ 
