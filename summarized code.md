@@ -1,6 +1,6 @@
-# Introduction to Data Visualization with Seaborn
+<h1>Introduction to Data Visualization with Seaborn</h1>
 
-<h1>_Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics._</h1>
+<h1>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.</h1>
 
 ```
 
