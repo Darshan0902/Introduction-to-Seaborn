@@ -1,6 +1,6 @@
 # <h1>Introduction to Data Visualization with Seaborn</h1>
 
-<h2>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.</h2>
+<h3>Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.</h3>
 
 ```
 
@@ -19,7 +19,7 @@ survey = pd.read_csv('datasets/young-people-survey-responses.csv', index_col=0)
 
 ```
 
-# Explore the datasets:
+# <h3>Explore the datasets:</h3>
 
 Using the datasets imported in the previous or the cell above explore the datasets and try to retreive or gain more information using the data. 
 
@@ -30,7 +30,7 @@ Using the datasets imported in the previous or the cell above explore the datase
 5. Do try to include labels and titles to make the whole data look more lively and presentable as you present those visualization and also make sure to add titles and labels to your plots and adjust their format for readability and better Analytics purpose.
 
 
-## Making a scatter plot with lists
+##<h3> Making a scatter plot with lists </h3>
  
 <br>Import Matplotlib and Seaborn using the standard naming conventions.
 <br>Use Seaborn to create a count plot with region on the y-axis.
@@ -49,10 +49,10 @@ plt.show()
 
 ```
 
-# "Tidy" vs. "untidy" data
+## <h3>"Tidy" vs. "untidy" data </h3>
 
 ```
-# Import pandas
+ # Import pandas
 import pandas as pd
 
 # Create a DataFrame from csv file
@@ -60,10 +60,10 @@ df = pd.read_csv(csv_filepath)
 
 # Print the head of df
 print(df.head())
-
 ```
 
-<h2> Making a count plot with a DataFrame </h2>
+
+<h3> Making a count plot with a DataFrame </h3>
 
 ```
 # Import Matplotlib, pandas, and Seaborn
@@ -84,7 +84,7 @@ plt.show()
 ```
 
 
-# Hue and scatter plots
+# <h3>Hue and scatter plots</h3>
 
 ```
 # Import Matplotlib and Seaborn
@@ -100,9 +100,9 @@ sns.scatterplot(x="absences", y="G3",
 plt.show()
 ```
 
-# Hue and count plots
+# <h3>Hue and count plots</h3>
 
-<br> Fill in the palette_colors dictionary to map the "Rural" location value to the color "green" and the "Urban" location value to the color "blue". <br> 
+Fill in the palette_colors dictionary to map the "Rural" location value to the color "green" and the "Urban" location value to the color "blue". 
 
 ```
 
