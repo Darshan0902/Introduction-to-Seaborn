@@ -88,6 +88,7 @@ plt.show()
 
 # Hue and scatter plots
 
+```
 # Import Matplotlib and Seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -99,7 +100,7 @@ sns.scatterplot(x="absences", y="G3",
 
 # Show plot
 plt.show()
-
+```
 
 # Hue and count plots
 
