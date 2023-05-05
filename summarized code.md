@@ -124,3 +124,35 @@ plt.show()
 
 
 ```
+
+
+# <h3> Separating a lot of bands <h3>
+ 
+ <br>        Set up a facet grid to separate the plots by the city column in eastern_SO2.
+ <br>      Send the confidence interval plotting function to map().
+ <br>         Color the confidence intervals 'coral'.
+ <br>       Help the overlaid mean line drawn with g.map(plt.plot,...) stand out against the confidence bands by coloring it white. <br>
+ 
+ 
+ 
+
+```
+ 
+ # Setup a grid of plots with columns divided by location
+g = sns.FacetGrid(eastern_SO2, col = 'city', col_wrap = 2)
+
+# Map interval plots to each cities data with corol colored ribbons
+g.map(plt.fill_between, 'day', 'lower', 'upper', color = 'coral')
+
+# Map overlaid mean plots with white line
+g.map(plt.plot, 'day', 'mean', color = 'white')
+
+plt.show()
+
+ 
+ ```
+ 
+ 
+ Output :
+ 
+ ![image](https://user-images.githubusercontent.com/77969007/236448163-e738cf32-46e3-4c88-b78d-5511c62bbd65.png)
