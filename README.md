@@ -11,4 +11,9 @@ To Install Seaborn in your device :
 
 ```
 
+2) Using Conda : 
 
+```
+conda install seaborn.
+
+```
