@@ -3,8 +3,12 @@ What is Seaborn, and when should you use it? In this chapter, you will find out!
 
 To Install Seaborn in your device : 
 
+1 ) using pip : 
+
 ```
 
 ! pip install seaborn
 
 ```
+
+
