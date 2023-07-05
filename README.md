@@ -17,3 +17,4 @@ To Install Seaborn in your device :
 conda install seaborn.
 
 ```
+ Seaborn can be used for the purpose of Visualisations .
